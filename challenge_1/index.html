@@ -1,2 +1,63 @@
+<!DOCTYPE html>
 
+<head>
+  <h1>TIC TAC TOE</h1>
+  <style>
+    table {
+      border-collapse: collapse;
+      border-style: hidden;
+      text-align: center;
+      font-size: 200%;
+    }
 
+    td {
+      border: 1px solid black;
+      width: 100px;
+      height: 100px;
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td id="1" onclick="changeText(this)">
+        <div> </div>
+      </td>
+      <td id="2" onclick="changeText(this)">
+        <div> </div>
+      </td>
+      <td id="3" onclick="changeText(this)">
+        <div> </div>
+      </td>
+    </tr>
+    <tr>
+      <td id="4" onclick="changeText(this)">
+        <div> </div>
+      </td>
+      <td id="5" onclick="changeText(this)">
+        <div> </div>
+      </td>
+      <td id="6" onclick="changeText(this)">
+        <div> </div>
+      </td>
+    </tr>
+    <tr>
+      <td id="7" onclick="changeText(this)">
+        <div> </div>
+      </td>
+      <td id="8" onclick="changeText(this)">
+        <div> </div>
+      </td>
+      <td id="9" onclick="changeText(this)">
+        <div> </div>
+      </td>
+    </tr>
+  </table>
+  <script type='text/javascript' src='./app.js'></script>
+</body>
